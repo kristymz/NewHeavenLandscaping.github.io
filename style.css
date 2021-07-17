@@ -1,3 +1,36 @@
 body {
-  background-color: lightgreen;
+  color:rgb(236, 236, 236);
+  background: linear-gradient(-45deg, #324030, #4C5F4A ,#667A63  , #7C8D7A, #50674D);
+	background-size: 1000% 1000%;
+	animation: gradient 15s ease infinite;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.newheaventitle {
+  font-weight: 1000px;
+  font-style: bold;
+  font-size: 40px;
+  font-style: italic;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #0b0e0b;
+  color: white;
+  text-align: center;
 }
